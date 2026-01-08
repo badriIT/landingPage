@@ -1,0 +1,596 @@
+[data-aos] {
+    transition-property: opacity, transform !important;
+    transition-duration: 0.4s !important;
+    transition: opacity 0.4s ease, transform 0.4s ease !important;
+}
+
+nav {
+    background-image: url('/assets/images/fire.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    min-height: auto;
+    padding: 20px;
+}
+
+
+.nav-container {
+    max-width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 30px;
+
+
+}
+
+
+
+
+.logo[data-aos] {
+    color: #FFC93F;
+    font-family: Goldman;
+    font-family: Goldman;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 50px;
+
+    line-height: 100%;
+    letter-spacing: 0%;
+    transition: box-shadow 0.3s ease, opacity 0.8s ease, transform 0.8s ease !important;
+    transition-delay: 0s, 0.4s, 0.4s !important;
+
+}
+
+.navigation-bar p {
+
+    font-family: Poppins;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 22px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    transition: 0.4s;
+
+
+}
+
+.navigation-bar p:hover {
+
+    color: #FFC93F !important;
+    cursor: pointer !important;
+}
+
+
+
+.navigation-bar[data-aos] {
+    display: flex;
+    gap: 30px;
+    border: solid 2px white;
+    height: fit-content;
+    padding: 10px 20px;
+    border-radius: 99px;
+    padding-top: 22px;
+    padding-right: 40px;
+    padding-bottom: 22px;
+    padding-left: 30px;
+    transition: box-shadow 0.3s ease, opacity 0.8s ease, transform 0.8s ease !important;
+    transition-delay: 0s, 0.4s, 0.4s !important;
+
+
+
+
+}
+
+
+.navigation-bar div {
+    /* Rectangle 150958 */
+
+    width: 2px;
+    height: 13px;
+
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 99px;
+
+    /* Inside auto layout */
+
+    margin-top: 5px;
+
+
+}
+
+.nav-down-content {
+    max-width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 100px;
+    height: auto;
+
+}
+
+
+
+.left-side p {
+    color: white;
+    font-family: 'Clash Display';
+    width: 500px;
+    font-size: 140px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    max-width: 926px;
+    width: 100%;
+    transition: box-shadow 0.3s ease, opacity 0.8s ease, transform 0.8s ease !important;
+    transition-delay: 0s, 0.8s, 0.8s !important;
+
+
+
+}
+
+.left-side-end div {
+    transition: box-shadow 0.3s ease, opacity 0.8s ease, transform 0.8s ease !important;
+    transition-delay: 0s, 1.6s, 1.6s !important;
+}
+
+.left-side-end p {
+    font-family: poppins;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    max-width: 678px;
+    width: 100%;
+    color: #8C8C8C;
+    transition: box-shadow 0.3s ease, opacity 0.8s ease, transform 0.8s ease !important;
+    transition-delay: 0s, 1.2s, 1.2s !important;
+
+}
+
+.left-side-end {
+    margin-top: 100px;
+    display: flex;
+    gap: 40px;
+}
+
+.agency {
+    color: #FFC93F;
+}
+
+.digital-agency {
+    color: #FB8E50;
+}
+
+.design,
+.software-services,
+.your-ideas {
+    color: #FFFFFF
+}
+
+.symbols {
+    display: inline-flex;
+    /* 🔑 key fix */
+    gap: 10px;
+    vertical-align: middle;
+    /* aligns with text */
+}
+
+.symbols svg:nth-child(1) {
+    transition: box-shadow 0.3s ease, opacity 0.8s ease, transform 0.8s ease !important;
+    transition-delay: 0s, 1.9s, 1.9s !important;
+}
+
+.symbols svg:nth-child(2) {
+    transition: box-shadow 0.3s ease, opacity 0.8s ease, transform 0.8s ease !important;
+    transition-delay: 0s, 2.1s, 2.1s !important;
+}
+
+.symbols svg:nth-child(3) {
+    transition: box-shadow 0.3s ease, opacity 0.8s ease, transform 0.8s ease !important;
+    transition-delay: 0s, 2.3s, 2.3s !important;
+}
+
+
+.texts {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.texts .services {
+    color: #ffffff33;
+    margin-top: 20px;
+}
+
+
+.image-background {
+    /* background image needed */
+
+    max-width: 452px;
+    width: 100%;
+    max-height: 668px;
+    height: 100%;
+    border-radius: 30px;
+    background-color: #FB8E50;
+    padding: 10px;
+    transition: box-shadow 0.3s ease, opacity 0.8s ease, transform 0.8s ease !important;
+    transition-delay: 0s, 2.1s, 2.1s !important;
+}
+
+.upper-content {
+    display: flex;
+    justify-content: center;
+    padding-top: 28px;
+    gap: 14px;
+    width: 100%;
+}
+
+.upper-content svg:nth-child(1) {
+    transition: box-shadow 0.3s ease, opacity 0.8s ease, transform 0.8s ease !important;
+    transition-delay: 0s, 2.4s, 2.4s !important;
+}
+
+.upper-content svg:nth-child(2) {
+    transition: box-shadow 0.3s ease, opacity 0.8s ease, transform 0.8s ease !important;
+    transition-delay: 0s, 2.6s, 2.6s !important;
+}
+
+
+.upper-content svg:nth-child(3) {
+    transition: box-shadow 0.3s ease, opacity 0.8s ease, transform 0.8s ease !important;
+    transition-delay: 0s, 2.8s, 2.8s !important;
+}
+
+
+.upper-content svg:nth-child(4) {
+    transition: box-shadow 0.3s ease, opacity 0.8s ease, transform 0.8s ease !important;
+    transition-delay: 0s, 3s, 3s !important;
+}
+
+
+
+.left-arrow {
+    cursor: pointer;
+    transform: rotate(180deg);
+}
+
+.right-arrow {
+    cursor: pointer;
+}
+
+.arrows {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    align-items: center;
+    margin-top: 300px;
+}
+
+.get-in-touch {
+    max-width: 452px;
+    width: 100%;
+    background-color: #FFD977;
+    border-radius: 99px;
+    padding-top: 26px;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-bottom: 26px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    font-family: poppins;
+    font-weight: 600;
+    line-height: 130%;
+    font-size: 20px;
+    border: none;
+    margin-top: 30px;
+    transition: box-shadow 0.3s ease, opacity 0.8s ease, transform 0.8s ease !important;
+    transition-delay: 0s, 2.5s, 2.5s !important;
+}
+
+.get-in-touch:hover {
+
+    transform: scale(1.02) !important;
+    box-shadow: #FFC93F 0px 0px 10px 0px;
+}
+
+.mobile-menu {
+    background: none;
+    background-image: none;
+    display: none;
+}
+
+
+/* mobile-nav.component.css */
+.burger-btn {
+    display: block;
+    width: 30px;
+    height: 21px;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.burger-btn .bar {
+    display: block;
+    width: 100%;
+    height: 5px;
+    background-color: white;
+    margin: 5px 0;
+    transition: all 0.3s;
+}
+
+/* Mobile Nav Styles */
+/* Mobile Nav Styles */
+.mobile-nav {
+    position: fixed;
+    top: 0;
+    right: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: #111;
+    /* This will provide a solid color instead of the image */
+    transition: right 0.3s ease;
+    z-index: 99;
+}
+
+
+.mobile-nav.open {
+    right: 0;
+}
+
+.nav-content {
+    padding: 50px 20px;
+    position: relative;
+    z-index: 99;
+
+}
+
+.nav-content nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav-content nav ul li {
+    padding: 20px 0;
+    font-family: 'Clash Display';
+}
+
+.nav-content nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    text-align: center;
+}
+
+.nav-content nav ul li a:hover {
+    color: #FFC93F !important;
+}
+
+
+
+/* Modify burger icon to close icon when the menu is open */
+.burger-btn.open .bar:nth-child(1) {
+    transform: rotate(45deg);
+    position: relative;
+    top: 8px;
+}
+
+.burger-btn.open .bar:nth-child(2) {
+    opacity: 0;
+}
+
+.burger-btn.open .bar:nth-child(3) {
+    transform: rotate(-45deg);
+    position: relative;
+    top: -8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1140px) {
+
+    .nav-down-content {
+        flex-direction: column;
+        text-align: center;
+
+    }
+
+    .left-side-end {
+        flex-direction: column;
+
+    }
+
+
+
+    .left-side p,
+    .texts {
+        margin: auto;
+        justify-content: center;
+    }
+
+    .pointer {
+        margin: auto;
+        order: 1;
+    }
+
+    .right-side {
+        margin: auto;
+        margin-top: 50px;
+    }
+
+
+}
+
+@media screen and (max-width: 1000px) {
+
+    .nav-container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        gap: 20px;
+    }
+
+    .navigation-bar {
+        width: 100%;
+        margin: auto;
+        justify-content: center;
+    }
+
+
+
+
+}
+
+
+@media screen and (max-width: 750px) {
+
+    .left-side .we {
+        font-size: 70px;
+    }
+
+    .texts p {
+        font-size: 20px;
+    }
+
+    .mobile-menu {
+        display: block;
+    }
+
+    .navigation-bar {
+        display: none;
+    }
+
+    .mobile-nav {
+        position: fixed;
+        top: 0;
+        right: -250px;
+        width: 250px;
+        height: 100%;
+        background-image: url('/assets/images/fire.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        transition: right 0.3s ease;
+        z-index: 99;
+
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+
+    .get-in-touch {
+
+        width: 100%;
+        background-color: #FFD977;
+        border-radius: 99px;
+        padding-top: 20px;
+        padding-right: 12px;
+        padding-left: 12px;
+        padding-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 4px;
+
+        font-family: poppins;
+        font-weight: 600;
+        line-height: 100%;
+        font-size: 20px;
+        border: none;
+        margin-top: 30px;
+        transition: 0.5s
+    }
+
+    .upper-content svg {
+        zoom: .8;
+    }
+
+
+
+}
+
+
+@media screen and (max-width: 360px) {
+    .upper-content svg {
+        zoom: .6;
+    }
+}
